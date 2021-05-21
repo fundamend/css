@@ -1,5 +1,20 @@
-@import 'sanitize.css';
+/******************************************************************************
+** fundamend.css
+*******************************************************************************
+** Purpose:
+** - Provide a customizable stylesheet
+** - Take into account best practices
+** - Provide most rules with minimum specificity
+** - Classless where possible
+******************************************************************************/
 
-body {
-	background-color: #eee;
-}
+/******************************************************************************
+** Baseline
+*******************************************************************************
+** Purpose:
+** - Remove differences across browsers
+** - Make behaviour of later rules more predictable
+******************************************************************************/
+
+@import 'sanitize.css';
+@import './baseline/all.css';

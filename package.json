@@ -1,6 +1,9 @@
 {
 	"name": "@fundamend/css",
 	"version": "0.0.0",
+	"dependencies": {
+		"sanitize.css": "^12.0.1"
+	},
 	"devDependencies": {
 		"@fundamend/config-eslint": "*",
 		"@fundamend/config-lint-staged": "*",

@@ -18,7 +18,7 @@
 		"stylelint": "^13.13.1"
 	},
 	"license": "MIT",
-	"main": "src/index.js",
+	"main": "src/fundamend.css",
 	"publishConfig": {
 		"access": "public",
 		"registry": "https://registry.npmjs.org"

@@ -1,0 +1,23 @@
+:root {
+	/*
+	The modular scale depends on a single number.
+	It's presence can be felt throughout the visual design.
+	Some use a specific ratio, such as the golden ratio, but the strict adherence to whichever ratio you choose is more important.
+	https://every-layout.dev/rudiments/modular-scale/
+	*/
+	--ratio: 1.618;
+	--ratio2: calc(var(--ratio) * var(--ratio));
+	--ratio3: calc(var(--ratio2) * var(--ratio));
+	--ratio4: calc(var(--ratio3) * var(--ratio));
+	--size5: calc(var(--size4) * var(--ratio));
+	--size4: calc(var(--size3) * var(--ratio));
+	--size3: calc(var(--size2) * var(--ratio));
+	--size2: calc(var(--size1) * var(--ratio));
+	--size1: calc(var(--size0) * var(--ratio));
+	--size0: var(--base-unit);
+	--size-1: calc(var(--size0) / var(--ratio));
+	--size-2: calc(var(--size-1) / var(--ratio));
+	--size-3: calc(var(--size-2) / var(--ratio));
+	--size-4: calc(var(--size-3) / var(--ratio));
+	--size-5: calc(var(--size-4) / var(--ratio));
+}

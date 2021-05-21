@@ -1,0 +1,4 @@
+:root {
+	/* The base unit is the root of all size settings */
+	--base-unit: 1rem;
+}

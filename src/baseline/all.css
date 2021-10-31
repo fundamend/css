@@ -1,3 +1,10 @@
-body {
-	background-color: #eee;
+*,
+*::before,
+*::after {
+	/*
+	`box-sizing: border-box;` is preferable, as it makes calculating box dimensions easier.
+	https://every-layout.dev/rudiments/boxes/
+	*/
+	box-sizing: border-box;
+	flex: 0 1 auto;
 }

@@ -8,6 +8,8 @@
 ** - Classless where possible
 ******************************************************************************/
 
+@import 'sanitize.css';
+
 /******************************************************************************
 ** Variables
 *******************************************************************************
@@ -30,5 +32,21 @@
 ** - Make behaviour of later rules more predictable
 ******************************************************************************/
 
-@import 'sanitize.css';
 @import './baseline/all.css';
+
+/******************************************************************************
+** Elements
+*******************************************************************************
+** Purpose:
+** - Consistently style default HTML elements
+** - Enable drop-in styling withoud classes and ids
+******************************************************************************/
+
+@import './elements/html.css';
+@import './elements/body.css';
+@import './elements/nav.css';
+
+:root {
+	--black: #334;
+	--gold: gold;
+}

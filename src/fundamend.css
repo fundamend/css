@@ -46,6 +46,16 @@
 @import './elements/body.css';
 @import './elements/nav.css';
 
+/******************************************************************************
+** Utility Classes
+*******************************************************************************
+** Purpose:
+** - Solve general problems for any element in any context
+** - Use maximum specificity, as these rules should not be overridden
+******************************************************************************/
+
+@import './utility/overflow.css';
+
 :root {
 	--black: #334;
 	--gold: gold;

@@ -12,7 +12,7 @@ MVP:
   - themes
 - layout
   - every-layout.dev (as web components)
-- https://practicaltypography.com/
+- <https://practicaltypography.com/>
 - Better Web Typography for a Better Web
 - refactoring UI
 

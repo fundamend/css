@@ -1,3 +1,4 @@
+/* https://ishadeed.com/article/defensive-css/#long-content */
 .overflow\:clip {
 	white-space: nowrap;
 	overflow: hidden;

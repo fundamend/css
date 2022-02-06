@@ -59,7 +59,13 @@
 
 @import './utility/overflow.css';
 
-:root {
-	--black: #334;
-	--gold: gold;
+/*
+** The opposite values can be used to prevent FOUC when set at the beginning of the html element.
+** This unsets these and thus only displays the page after this stylsheet has finished loading.
+** See: https://stackoverflow.com/questions/3221561/eliminate-flash-of-unstyled-content
+*/
+html {
+	display: block;
+	visibility: visible;
+	opacity: 1;
 }

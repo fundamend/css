@@ -58,6 +58,7 @@
 ******************************************************************************/
 
 @import './utility/overflow.css';
+@import './utility/width.css';
 
 /*
 ** The opposite values can be used to prevent FOUC when set at the beginning of the html element.

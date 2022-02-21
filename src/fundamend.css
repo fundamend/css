@@ -22,6 +22,7 @@
 ******************************************************************************/
 
 @import './variables/defaults.css';
+@import './variables/font-size.css';
 @import './variables/scale.css';
 @import './variables/shadows.css';
 
@@ -45,6 +46,7 @@
 
 @import './elements/forms/button.css';
 
+@import './elements/text/h1-h6.css';
 @import './elements/html.css';
 @import './elements/body.css';
 @import './elements/nav.css';

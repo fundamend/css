@@ -1,0 +1,34 @@
+:root {
+	/*  https://css-tricks.com/simplified-fluid-typography/ */
+	--font-size-tiny: var(--size-3);
+	--font-size-smaller: var(--size-2);
+	--font-size-small: var(--size-1);
+	--font-size-regular: var(--size0);
+	--font-size-large: var(--size1);
+	--font-size-larger: var(--size2);
+	--font-size-huge: var(--size3);
+}
+
+.text-huge {
+	font-size: var(--font-size-huge);
+}
+
+.text-larger {
+	font-size: var(--font-size-larger);
+}
+
+.text-large {
+	font-size: var(--font-size-large);
+}
+
+.text-small {
+	font-size: var(--font-size-small);
+}
+
+.text-smaller {
+	font-size: var(--font-size-smaller);
+}
+
+.text-tiny {
+	font-size: var(--font-size-tiny);
+}

@@ -1,0 +1,43 @@
+:root {
+	--black: rgb(62, 51, 85);
+	--white: rgb(254, 253, 252);
+	--red: #ff4f81;
+	--orange: #ff6c5f;
+	--yellow: #ffc168;
+	--green: #2dde98;
+	--teal: #1cc7d0;
+	--blue: #00aeff;
+	--violet: #3369e7;
+	--purple: #8e43e7;
+	--magenta: #b84592;
+
+	/* Gradients
+	** https://www.joshwcomeau.com/gradient-generator/
+	*/
+	--gradient-red-orange: linear-gradient(
+		45deg,
+		hsl(343deg 100% 65%) 0%,
+		hsl(353deg 100% 68%) 50%,
+		hsl(5deg 100% 69%) 100%
+	);
+	--gradient-green-teal: linear-gradient(
+		45deg,
+		hsl(156deg 73% 52%) 0%,
+		hsl(173deg 100% 42%) 50%,
+		hsl(183deg 76% 46%) 100%
+	);
+	--gradient-purple-magenta: linear-gradient(
+		45deg,
+		hsl(267deg 77% 58%) 0%,
+		hsl(297deg 51% 48%) 50%,
+		hsl(320deg 45% 50%) 100%
+	);
+	--gradient-rainbow: linear-gradient(
+		45deg,
+		hsl(343deg 100% 65%) 0%,
+		hsl(26deg 100% 69%) 25%,
+		hsl(115deg 44% 67%) 50%,
+		hsl(194deg 100% 46%) 75%,
+		hsl(267deg 77% 58%) 100%
+	);
+}

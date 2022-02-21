@@ -47,7 +47,11 @@
 
 @import './elements/forms/button.css';
 
+@import './elements/text/a.css';
+@import './elements/text/b.css';
 @import './elements/text/h1-h6.css';
+@import './elements/text/p.css';
+
 @import './elements/html.css';
 @import './elements/body.css';
 @import './elements/nav.css';
@@ -62,7 +66,3 @@
 
 @import './utility/overflow.css';
 @import './utility/text-align.css';
-:root {
-	--black: #334;
-	--gold: gold;
-}

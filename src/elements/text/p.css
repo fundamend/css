@@ -1,0 +1,9 @@
+p {
+	margin: 0;
+	hyphens: auto;
+	color: var(--color-text-light);
+}
+
+p + p {
+	margin-top: var(--size0);
+}

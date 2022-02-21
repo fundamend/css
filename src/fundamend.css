@@ -61,7 +61,7 @@
 ******************************************************************************/
 
 @import './utility/overflow.css';
-
+@import './utility/text-align.css';
 :root {
 	--black: #334;
 	--gold: gold;

@@ -5,7 +5,8 @@
 	Some use a specific ratio, such as the golden ratio, but the strict adherence to whichever ratio you choose is more important.
 	https://every-layout.dev/rudiments/modular-scale/
 	*/
-	--ratio: 1.618;
+
+	/*  https://css-tricks.com/simplified-fluid-typography/ */
 	--ratio2: calc(var(--ratio) * var(--ratio));
 	--ratio3: calc(var(--ratio2) * var(--ratio));
 	--ratio4: calc(var(--ratio3) * var(--ratio));
@@ -14,7 +15,7 @@
 	--size3: calc(var(--size2) * var(--ratio));
 	--size2: calc(var(--size1) * var(--ratio));
 	--size1: calc(var(--size0) * var(--ratio));
-	--size0: var(--base-unit);
+	--size0: clamp(var(--base-unit-min), 2vw, var(--base-unit-max));
 	--size-1: calc(var(--size0) / var(--ratio));
 	--size-2: calc(var(--size-1) / var(--ratio));
 	--size-3: calc(var(--size-2) / var(--ratio));

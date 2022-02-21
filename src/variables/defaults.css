@@ -1,4 +1,26 @@
 :root {
+	--ratio: 1.618;
+
 	/* The base unit is the root of all size settings */
-	--base-unit: 1rem;
+	--base-unit-min: 1rem;
+	--base-unit-max: calc(var(--base-unit-min) * var(--ratio));
+
+	/*
+	** A maximum line length of 80 characters is recommended for legibility [1].
+	** There is no measure for a fonts average character width available in CSS.
+	** The closest equivalent is the ch unit.
+	** 1ch is the width of the fonts 0 character.
+	** In non-monospace fonts, the other characters usually have different widths,
+	** on average 20-30% wider than the 0 character.
+	** Thus, to get to a maximum width of 80 character, 60ch is a reasonable
+	** setting for average fonts [2].
+	**
+	** [1] TODO: Add source
+	** [2] https://meyerweb.com/eric/thoughts/2018/06/28/what-is-the-css-ch-unit/
+	*/
+	--width-text-max: 60ch;
+	--width-wide-max: 80ch;
+	--width-hero-max: 100ch;
+	--color-text: var(--black);
+	--color-text-light: rgb(82, 71, 105);
 }
